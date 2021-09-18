@@ -1,0 +1,5 @@
+/home/werdox/Projects/CSharp/LumeniteApiCsharp/bin/Release/net5.0/publish/LumeniteApiCsharp.dll
+/home/werdox/Projects/CSharp/LumeniteApiCsharp/bin/Release/net5.0/publish/LumeniteApiCsharp.deps.json
+/home/werdox/Projects/CSharp/LumeniteApiCsharp/bin/Release/net5.0/publish/LumeniteApiCsharp.pdb
+/home/werdox/Projects/CSharp/LumeniteApiCsharp/bin/Release/net5.0/publish/M2Mqtt.Net.dll
+/home/werdox/Projects/CSharp/LumeniteApiCsharp/bin/Release/net5.0/publish/Newtonsoft.Json.dll

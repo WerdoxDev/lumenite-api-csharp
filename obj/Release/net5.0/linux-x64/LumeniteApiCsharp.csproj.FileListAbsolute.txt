@@ -1,0 +1,12 @@
+/home/werdox/Projects/CSharp/LumeniteApiCsharp/bin/Release/net5.0/linux-x64/LumeniteApiCsharp.deps.json
+/home/werdox/Projects/CSharp/LumeniteApiCsharp/bin/Release/net5.0/linux-x64/LumeniteApiCsharp.dll
+/home/werdox/Projects/CSharp/LumeniteApiCsharp/bin/Release/net5.0/linux-x64/ref/LumeniteApiCsharp.dll
+/home/werdox/Projects/CSharp/LumeniteApiCsharp/bin/Release/net5.0/linux-x64/LumeniteApiCsharp.pdb
+/home/werdox/Projects/CSharp/LumeniteApiCsharp/obj/Release/net5.0/linux-x64/LumeniteApiCsharp.csproj.AssemblyReference.cache
+/home/werdox/Projects/CSharp/LumeniteApiCsharp/obj/Release/net5.0/linux-x64/LumeniteApiCsharp.GeneratedMSBuildEditorConfig.editorconfig
+/home/werdox/Projects/CSharp/LumeniteApiCsharp/obj/Release/net5.0/linux-x64/LumeniteApiCsharp.AssemblyInfoInputs.cache
+/home/werdox/Projects/CSharp/LumeniteApiCsharp/obj/Release/net5.0/linux-x64/LumeniteApiCsharp.AssemblyInfo.cs
+/home/werdox/Projects/CSharp/LumeniteApiCsharp/obj/Release/net5.0/linux-x64/LumeniteApiCsharp.csproj.CoreCompileInputs.cache
+/home/werdox/Projects/CSharp/LumeniteApiCsharp/obj/Release/net5.0/linux-x64/LumeniteApiCsharp.dll
+/home/werdox/Projects/CSharp/LumeniteApiCsharp/obj/Release/net5.0/linux-x64/ref/LumeniteApiCsharp.dll
+/home/werdox/Projects/CSharp/LumeniteApiCsharp/obj/Release/net5.0/linux-x64/LumeniteApiCsharp.pdb
