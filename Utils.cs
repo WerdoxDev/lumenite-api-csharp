@@ -6,7 +6,7 @@ namespace LumeniteApiCsharp
 {
     public class Utils
     {
-        private static Random _random = new();
+        private static readonly Random _random = new();
 
         public static string GenerateRandomId(int length = 16, bool uperCase = true)
         {
