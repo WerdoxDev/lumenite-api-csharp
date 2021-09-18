@@ -30,6 +30,7 @@ namespace LumeniteApiCsharp
                 CurrentStatus.Power = JsonConvert.DeserializeObject<Status>(command.Payload[0]).Power;
                 Console.ForegroundColor = ConsoleColor.Cyan;
                 Console.WriteLine($"Power of device with id of {Id}, changed to {CurrentStatus.Power}");
+                Console.ResetColor();
             }
         }
 
