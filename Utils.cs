@@ -7,14 +7,14 @@ namespace LumeniteApiCsharp
 {
     public class Utils
     {
-        private static readonly Random _random = new();
+        private static readonly Random Random = new();
 
         public static string GenerateRandomId(int length = 16, bool uperCase = true)
         {
             string chars = uperCase
                 ? "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
                 : "abcdefghijklmnopqrstuvwxyz0123456789";
-            return new string(Enumerable.Repeat(chars, length).Select(x => x[_random.Next(x.Length)]).ToArray());
+            return new string(Enumerable.Repeat(chars, length).Select(x => x[Random.Next(x.Length)]).ToArray());
         }
 
         public static bool CheckTopic(string topic, string match, params int[] ignores)

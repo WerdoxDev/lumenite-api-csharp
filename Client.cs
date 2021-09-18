@@ -9,23 +9,23 @@ namespace LumeniteApiCsharp
 {
     public class Client
     {
-        public char prefix = '-';
+        public char Prefix = '-';
 
         public List<BaseDevice> Devices { get; private set; }
-        private List<Commands.Command> commands;
+        private readonly List<Commands.Command> _commands = new();
 
         public Client()
         {
             char p = Utils.LoadPrefix();
 
             if (p != ' ')
-                prefix = p;
+                Prefix = p;
 
-            commands.Add(new DeviceListCommand(this));
-            commands.Add(new HelpCommand(this));
-            commands.Add(new PowerAllCommand(this));
-            commands.Add(new PowerCommand(this));
-            commands.Add(new PrefixCommand(this));
+            _commands.Add(new DeviceListCommand(this));
+            _commands.Add(new HelpCommand(this));
+            _commands.Add(new PowerAllCommand(this));
+            _commands.Add(new PowerCommand(this));
+            _commands.Add(new PrefixCommand(this));
         }
 
         public async Task Login(GatewayOptions options)
@@ -34,27 +34,26 @@ namespace LumeniteApiCsharp
             await gateway.Connect();
             Devices = gateway.Devices;
 
-            Thread thread = new Thread(new ThreadStart(WaitForCommand));
-            thread.Start();
+            Task.Run(() => WaitForCommand());
         }
 
         private void WaitForCommand()
         {
-            Utils.Print($"Type '{prefix}' before any command.", ConsoleColor.Yellow);
-            Utils.Print($"{prefix}help for help.", ConsoleColor.Yellow);
+            Utils.Print($"Type '{Prefix}' before any command.", ConsoleColor.Yellow);
+            Utils.Print($"{Prefix}help for help.", ConsoleColor.Yellow);
 
             while (true)
             {
                 string line = Console.ReadLine();
 
-                if (line[0] == prefix)
+                if (line != null && line[0] == Prefix)
                 {
                     string[] arguments = line.Substring(1, line.Length - 1).ToLower().Split(' ');
                     string command = arguments[0];
 
-                    for (int i = 0; i < commands.Count; i++)
+                    for (int i = 0; i < _commands.Count; i++)
                     {
-                        Commands.Command cmd = commands[i];
+                        Commands.Command cmd = _commands[i];
                         cmd.Setup(arguments);
 
                         if (cmd.name == command || cmd.aliases.Contains(command))

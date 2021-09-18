@@ -10,7 +10,7 @@ namespace LumeniteApiCsharp.Commands
     {
         public override void Action()
         {
-            Utils.Print($"Type '{Program.prefix}' before any command.", ConsoleColor.Yellow);
+            Utils.Print($"Type '{client.Prefix}' before any command.", ConsoleColor.Yellow);
             Utils.Print("DeviceList", ConsoleColor.Yellow);
             Utils.Print("Power <deviceID> [On|Off|1|0]", ConsoleColor.Yellow);
             Utils.Print("PowerAll [On|Off|1|0]", ConsoleColor.Yellow);

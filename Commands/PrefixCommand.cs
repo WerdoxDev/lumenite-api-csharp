@@ -15,10 +15,10 @@ namespace LumeniteApiCsharp.Commands
             {
                 if (arguments[1].Length == 1)
                 {
-                    client.prefix = arguments[1][0];
-                    Utils.Print($"New Prefix: {client.prefix}", ConsoleColor.Green);
-                    Utils.Print($"Type '{client.prefix}' before any command", ConsoleColor.Yellow);
-                    Utils.SavePrefix(client.prefix);
+                    client.Prefix = arguments[1][0];
+                    Utils.Print($"New Prefix: {client.Prefix}", ConsoleColor.Green);
+                    Utils.Print($"Type '{client.Prefix}' before any command", ConsoleColor.Yellow);
+                    Utils.SavePrefix(client.Prefix);
                 }
                 else
                 {
