@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using FILE;
 
 namespace LumeniteApiCsharp
 {
@@ -40,6 +41,31 @@ namespace LumeniteApiCsharp
         {
             Status value = new Status(StatusType.Offline);
             return value;
+        }
+
+        public static void Print(string msg, ConsoleColor color)
+        {
+            Console.ForegroundColor = color;
+            Console.WriteLine(msg);
+            Console.ForegroundColor = ConsoleColor.White;
+        }
+
+        public static void SavePrefix(char prefix)
+        {
+            string[] prefixSave = new string[] { prefix.ToString() };
+            FileSystem.WriteLines("./Prefix.lt", prefixSave);
+        }
+        public static char LoadPrefix()
+        {
+            char prefix = ' ';
+
+            if (FileSystem.Exists("./Prefix.lt"))
+            {
+                string[] prefixLoad = FileSystem.ReadLines("./Prefix.lt");
+                prefix = prefixLoad[0][0];
+            }
+
+            return prefix;
         }
     }
 }

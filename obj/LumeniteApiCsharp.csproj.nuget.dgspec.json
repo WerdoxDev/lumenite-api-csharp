@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/werdox/Projects/CSharp/LumeniteApiCsharp/LumeniteApiCsharp.csproj": {}
+    "D:\\Projects\\Github\\lumenite-api-csharp\\LumeniteApiCsharp.csproj": {}
   },
   "projects": {
-    "/home/werdox/Projects/CSharp/LumeniteApiCsharp/LumeniteApiCsharp.csproj": {
+    "D:\\Projects\\Github\\lumenite-api-csharp\\LumeniteApiCsharp.csproj": {
       "version": "1.3.0",
       "restore": {
-        "projectUniqueName": "/home/werdox/Projects/CSharp/LumeniteApiCsharp/LumeniteApiCsharp.csproj",
+        "projectUniqueName": "D:\\Projects\\Github\\lumenite-api-csharp\\LumeniteApiCsharp.csproj",
         "projectName": "LumeniteApiCsharp",
-        "projectPath": "/home/werdox/Projects/CSharp/LumeniteApiCsharp/LumeniteApiCsharp.csproj",
-        "packagesPath": "/home/werdox/.nuget/packages/",
-        "outputPath": "/home/werdox/Projects/CSharp/LumeniteApiCsharp/obj/",
+        "projectPath": "D:\\Projects\\Github\\lumenite-api-csharp\\LumeniteApiCsharp.csproj",
+        "packagesPath": "C:\\Users\\markazico\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Github\\lumenite-api-csharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/werdox/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\markazico\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -62,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "DREE+yq7ljf0duUT1jPJwch2UUz02GD9hVISEamHOaRKw/39swBVRwjuRcztV515u7+i9YsWgM83MQSOxM6YRg==",
+  "dgSpecHash": "D3VD1hi3/bV6rMvxAfHDaeThC9u8DfjasskWtN1aU6hEHNjpCD98R6G1Py481ti2sVrYuIQOaOTf9J64TuiROA==",
   "success": true,
-  "projectFilePath": "/home/werdox/Projects/CSharp/LumeniteApiCsharp/LumeniteApiCsharp.csproj",
+  "projectFilePath": "D:\\Projects\\Github\\lumenite-api-csharp\\LumeniteApiCsharp.csproj",
   "expectedPackageFiles": [
-    "/home/werdox/.nuget/packages/m2mqtt/4.3.0/m2mqtt.4.3.0.nupkg.sha512",
-    "/home/werdox/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\markazico\\.nuget\\packages\\m2mqtt\\4.3.0\\m2mqtt.4.3.0.nupkg.sha512",
+    "C:\\Users\\markazico\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": [
     {
