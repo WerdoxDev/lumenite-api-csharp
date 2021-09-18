@@ -10,7 +10,7 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("WerdoxDev")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("WerdoxDev, VoidDev")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("an api to work with lumenite writen in c#")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
